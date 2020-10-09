@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Form Pendaftaran</title>
+	<style>
+		*{
+			padding:0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background:url(D:/web/gambar.png);
+		}
+		.row{
+			background:white;
+			border-radius:30px;
+			box-shadow:12px 12px 22px black;
+		}
+		img{
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+		}
+		.btn1{
+			border:none;
+			outline:none;
+			height: 50px;
+			width:100%;
+			background-color:black;
+			color:white;
+			border-radius:4px;
+			font-weight:bold;
+			margin-top:10px
+		}
+		.btn1:hover{
+			background:white;
+			border:1px solid;
+			color:black;
+		}
+	</style>
+  </head>
+  <body>
+	<!--Layer1-->
+	<div class="container">
+		<h2 class="alert alert-primary text-center mt-3">Pendaftaran</h2>
+		<form>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="depan">Nama Depan</label>
+						<input type="text" name="" class="form-control" placeholder="Masukan Nama Depan Anda" id="depan">
+					</div>
+				</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="belakang">Nama Belakang</label>
+							<input type="text" name="" class="form-control" placeholder="Masukan Nama Belakang Anda" id="belakang">
+						</div>
+					</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="alamat">Alamat Email</label>
+						<input type="text" name="" class="form-control" placeholder="E-mail" id="alamat">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="tgl">Tanggal Lahir</label>
+						<input type="date" name="" class="form-control" placeholder="mm/dd/yyyy" id="tgl">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="pass">Password</label>
+						<input type="password" name="" class="form-control" placeholder="Password" id="pass">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="tgl">Confirm Password</label>
+						<input type="password" name="" class="form-control" placeholder="Confirm Password" id="confirm">
+					</div>
+				</div>
+				
+				<div class="form-group ml-3">
+					<label>Jenis Kelamin:</label></br>
+					<div class="form-check-inline">
+						<input type="radio" class="form-check-input" name="radio1" id="radio2" checked="">
+						<label>Laki Laki</label>
+					</div>
+					<div class="form-check-inline">
+						<input type="radio" class="form-check-input" name="radio1" id="radio2">
+						<label>Perempuan</label>
+					</div>
+				</div>
+			</div>
+				<div class="form-group">
+					<label>Uploud Your Photo</label>
+					<input type="file" class="form-control-file" name="">
+					<small>Uploud File dengan ukuran maksimal 1 MB</small>
+				</div>
+				<input class="btn btn-primary" type="submit" value="daftar">
+				<input class="btn btn-danger" type="reset" value="reset">
+		</form>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

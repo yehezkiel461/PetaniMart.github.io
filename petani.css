@@ -1,0 +1,17 @@
+.jumbotron{
+	background-image:url(D:web/petani.jpeg);
+	background-size: cover;
+	height:700px;
+	text-align:center;
+	margin-top:0px;
+}
+.jumpotron .rounded-circle img-thumbnail{
+	margin-top:500px;
+}
+.jumbroton .display-auto {
+	color:#fff;
+	margin-top:200px;
+}
+.jumbotron p{
+	color:white;
+}
